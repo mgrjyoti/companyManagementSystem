@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<</htmlhtml lang="en" xmlns:th="http://www.thymeleaf.org">
+<link href="/bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
+<head>
+<style type="stylesheet">
+</style>
+</head>
+<body>
+	<section  class="vh-100"  style="background-color: rgb(243, 145, 186);" >
+        <div class="container h100">
+                <div class="row d-flax justify-containt-center align-items-center h-100">
+                    <div class="col-xl-9">
+                        <h1 class="text-while mb-4">Personal-Datails</h1>
+                    </div>
+                    <div class="card " style="border-radius: 15px; background-color: rgb(100, 252, 252);">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="position" class="form-label">Position<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" name="position" id="position" placeholder="emp123" required>
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="repomgr" class="form-label">Repoting Manager <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" name="repomgr" id="repomgr" placeholder="emp123" required>
+                                  </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="doh" class="form-label">Date Of Hire<span class="text-danger">*</span></label>
+                                   <input type="date" class="form-control" name="doh" id="doh" placeholder="17-03-2024" required>                              
+                                   </div>
+                                <div class="col-6">
+                                    <label for="Salary" class="form-label">Salary<span class="text-danger">*</span></label>
+                                    <input type="number" class="form-control" name="salary" id="Salary" placeholder="55000.00" required>
+                                  </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-6">
+                                    <label for="adhar" class="form-label">Aadnar Number<span class="text-danger">*</span></label>
+                                    <input type="number" class="form-control" name="adhar" id="adhar" placeholder="1644-7994-7846" required>
+                                  </div>
+                                  <div class="col-6">
+                                    <label for="pan" class="form-label">Pan Card Number <span class="text-danger">*</span></label>
+                                    <input type="number" class="form-control" name="pan" id="pan" placeholder="HBC23ZY453" required>
+                                  </div>
+                              </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="pemail" class="form-label">Personal Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" name="pemail" id="pemail" placeholder="name@example.com" required>
+                                      </div>
+                                        <div class="col-6">
+                                            <label for="contact" class="form-label">Contact Number <span class="text-danger">*</span></label>
+                                            <input type="number" class="form-control" name="contact" id="contact" value="" required>
+                                          </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="address" class="form-label">Address <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" name="address" id="address" placeholder="pune" required>
+                                  </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="dob" class="form-label">Date Of Birth<span class="text-danger">*</span></label>
+                                           <input type="date" class="form-control" name="dob" id="dob" placeholder="17-03-2024" required>                              
+                                           </div>
+                                           <div class="col-6 mt-4">
+                                            <div class="form-group " style="display: inline;">
+                                              <div class="form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                                                <label class="form-check-label" for="male">
+                                                  Male
+                                                </label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                                <label class="form-check-label" for="female">
+                                                  Female
+                                                </label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                                <label class="form-check-label" for="female">
+                                                  Other
+                                                </label>
+                                              </div>
+                                            </div>
+                                           </div>
+                                    </div>
+                                  <div class="row">
+                                    <div class="col-6">
+                                        <label for="emegcontactname" class="form-label">Emergency Contact Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="emegcontactname" id="emegcontactname" value="" required>
+                                      </div>
+                                     
+                                      <div class="col-6">
+                                        <label for="emegcontact" class="form-label">Emergency Contact Number <span class="text-danger">*</span></label>
+                                        <input type="number" class="form-control" name="emegcontact" id="emegcontact" value="" required>
+                                      </div> 
+                                  </div>         
+                                   <div class="col-3 mt-3 align-items-center">
+                                        <button class="btn bsb-btn-xl btn-secondary" type="submit">Save And Next</button>
+                                    </div>
+                                </div>
+                          </div>
+                        </form>
+                </div>
+                </div>
+        </div>
+    </section>
+	
+	</body>
+</html>

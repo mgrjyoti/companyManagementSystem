@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<link href="/bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .login-container {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 100px;
+    }
+  </style>
+
+</head>
+<body>
+	<div class="login-container">
+  <h2 class="text-center mb-4">Login</h2>
+  <form>
+    <div class="mb-3">
+      <label for="username" class="form-label">Username</label>
+      <input type="text" class="form-control" id="username" placeholder="Enter username">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter password">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="rememberMe">
+      <label class="form-check-label" for="rememberMe">Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-primary w-100" th:href="@{/}" th:onclick="showLogin()">Login</button>
+  </form>
+  <p class="mt-3 text-center">Don't have an account? <a href="#">Sign up</a></p>
+</div>
+
+<script>
+	function showLogin(){
+		("You are Login Successfuly!!!");
+	}
+</script>
+
+	</body>
+</html>
